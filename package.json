@@ -1,0 +1,31 @@
+{
+  "name": "coin-watcher",
+  "version": "0.0.1",
+  "description": "Simple application to track the dollar.",
+  "productName": "Coin Watcher",
+  "cordovaId": "com.doughenri.dollar",
+  "capacitorId": "",
+  "author": "Douglas Henrique",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.19.2",
+    "push-dir": "^0.4.1",
+    "quasar": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
