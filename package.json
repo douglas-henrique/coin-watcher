@@ -9,7 +9,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "push-dir --dir=dist/spa --branch=gh-pages --local-branch-name=master --remote=gh-pages"
+    "deploy": "push-dir --dir=dist/spa/ --branch=gh-pages"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
