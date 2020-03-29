@@ -1,23 +1,10 @@
-# Dollar Watcher (dollar-watcher)
+# Welcome to the coin-watcher
 
-Simple application to track the dollar.
+This is a simple application to monitoring some coins in the world using QuasarJS and VueJS.
 
-## Install the dependencies
-```bash
-npm install
-```
+# Steps to run the project
+ 1. Clone the master repo
+ 2. run `npm install`
+ 3. run `quasar dev`
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
-# coin-watcher
+Enjoy it!
