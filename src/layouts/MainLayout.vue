@@ -32,7 +32,7 @@
                 <q-icon name="ion-logo-github" />
               </q-item-section>
 
-              <q-item-section>
+              <q-item-section @click="sendToGitHub()">
                 Github
               </q-item-section>
             </q-item>
@@ -41,8 +41,8 @@
               <q-item-section avatar>
                 <q-icon name="ion-logo-linkedin" />
               </q-item-section>
-              <q-item-section>
-                Drafts
+              <q-item-section @click="sentToLinkedIn()">
+                LinkedIn
               </q-item-section>
             </q-item>
           </q-list>
@@ -77,6 +77,14 @@ export default {
   },
   created () {
     this.$q.addressbarColor.set('#a2e3fa')
+  },
+  methods: {
+    sendToGitHub : function () {
+      location.replace("https://github.com/douglas-henrique/coin-watcher");
+    },
+    sentToLinkedIn : function () {
+      location.replace("https://linkedin.com/in/douglas-hsp");
+    }
   }
 }
 </script>
